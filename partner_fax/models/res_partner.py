@@ -8,3 +8,6 @@ class ResPartner(models.Model):
     _inherit = "res.partner"
 
     fax = fields.Char()
+    # Customization start
+    pb_no = fields.Char("PB No")
+    # Customization Stop
