@@ -7,6 +7,9 @@
         <field name="arch" type="xml">
             <field name="function" position="after">
                 <field name="fax" placeholder="Fax..." />
+                <!-- Customization Start -->
+                <field name="pb_no" placeholder="PB No" />
+                <!-- Customization Stop -->
             </field>
         </field>
     </record>
@@ -17,6 +20,9 @@
         <field name="arch" type="xml">
             <field name="function" position="after">
                 <field name="fax" placeholder="Fax..." widget="phone" />
+                <!-- Customization start -->
+                <field name="pb_no" placeholder="PB No" />
+                <!-- Customization Stop -->
             </field>
             <xpath
                 expr="//field[@name='child_ids']/form//div[field[@name='phone']]"
